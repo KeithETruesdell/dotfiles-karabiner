@@ -18,6 +18,71 @@
                         ]
                     },
                     {
+                        "description": "Homerow Mod - A for ALT",
+                        "enabled": false,
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_alt" }],
+                                "to_if_alone": [{ "key_code": "a" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Homerow Mod - S for SUPER",
+                        "enabled": false,
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "lazy": true
+                                    }
+                                ],
+                                "to_if_alone": [{ "key_code": "s" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Homerow Mod - D for cmD",
+                        "enabled": false,
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_command" }],
+                                "to_if_alone": [{ "key_code": "d" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Homerow Mod - F for control",
+                        "enabled": false,
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_control" }],
+                                "to_if_alone": [{ "key_code": "f" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Double Left Shift to Capslock",
                         "manipulators": [
                             {
@@ -82,71 +147,6 @@
                                     },
                                     { "key_code": "left_shift" }
                                 ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Homerow Mod - A for ALT",
-                        "enabled": false,
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "a",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "left_alt" }],
-                                "to_if_alone": [{ "key_code": "a" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Homerow Mod - S for SUPER",
-                        "enabled": false,
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_shift",
-                                        "lazy": true
-                                    }
-                                ],
-                                "to_if_alone": [{ "key_code": "s" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Homerow Mod - D for cmD",
-                        "enabled": false,
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "left_command" }],
-                                "to_if_alone": [{ "key_code": "d" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Homerow Mod - F for control",
-                        "enabled": false,
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "left_control" }],
-                                "to_if_alone": [{ "key_code": "f" }],
                                 "type": "basic"
                             }
                         ]
